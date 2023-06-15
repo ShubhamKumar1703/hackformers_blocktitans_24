@@ -5,8 +5,8 @@ import { useState } from "react";
 
 const networks = {
   polygon: {
-    chainId: `0x${Number(997).toString(16)}`,
-    chainName: "5ireChainThunder",
+    chainId: `0x${Number(5).toString(16)}`,
+    chainName: "5ireChain",
     nativeCurrency: {
       name: "5IRE",
       symbol: "5IRE",
