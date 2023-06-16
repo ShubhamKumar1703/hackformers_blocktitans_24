@@ -5,15 +5,15 @@ import { useState } from "react";
 
 const networks = {
   polygon: {
-    chainId: `0x${Number(5).toString(16)}`,
-    chainName: "5ireChain",
+    chainId: `0x${Number(80001).toString(16)}`,
+    chainName: "Polygon Testnet",
     nativeCurrency: {
-      name: "5IRE",
-      symbol: "5IRE",
+      name: "MATIC",
+      symbol: "MATIC",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-testnet.5ire.network/"],
-    blockExplorerUrls: ["https://explorer.5ire.network/"],
+    rpcUrls: ["https://rpc-mumbai.maticvigil.com/"],
+    blockExplorerUrls: ["https://mumbai.polygonscan.com/"],
   },
 };
 
